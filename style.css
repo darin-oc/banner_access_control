@@ -52,10 +52,11 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
    border-radius:4px;
-   border:1px solid #A6A6A6;
+   border:2px solid #A6A6A6;
    padding:0 20px;
    margin:0 auto;
    height:28px;
+   width:100px;
 }
 
 .art-postcontent,
@@ -942,7 +943,6 @@ ul.art-hmenu ul
 .art-sheet
 {
    background: #FFFFFF;
-   background: rgba(255, 255, 255, 0.4);
    -webkit-border-radius:0 0 15px 15px;
    -moz-border-radius:0 0 15px 15px;
    border-radius:0 0 15px 15px;
@@ -997,13 +997,6 @@ div.art-block img
 .art-blockheader
 {
    background: #CB0B14;
-   background: linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   background: linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(237, 12, 24, 0.8) 0, rgba(170, 9, 17, 0.8) 100%) no-repeat;
    padding:10px 7px;
    margin:0 auto;
 }
@@ -1024,8 +1017,7 @@ div.art-block img
 
 .art-blockcontent
 {
-   background: #FFFFFF;
-   background: rgba(255, 255, 255, 0.5);
+   background: #777777;
    border:1px solid rgba(142, 180, 204, 0.5);
    padding:7px;
    margin:0 auto;
@@ -1171,15 +1163,6 @@ input.art-button
 .art-button.active, .art-button.active:hover
 {
    background: #6B9CBD;
-   background: linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   background: -moz-linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   background: -o-linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   background: -ms-linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   background: linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   -svg-background: linear-gradient(top, #84ADC8 0, #538CB2 100%) no-repeat;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
    border-radius:4px;
    border:1px solid #6B9CBD;
    padding:0 20px;
@@ -1192,15 +1175,6 @@ input.art-button
 .art-button.hover, .art-button:hover
 {
    background: #BCD2E1;
-   background: linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   background: -moz-linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   background: -o-linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   background: -ms-linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   background: linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   -svg-background: linear-gradient(top, #DCE7EF 0, #A0BFD4 100%) no-repeat;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
    border-radius:4px;
    border:1px solid #6B9CBD;
    padding:0 20px;
@@ -1811,7 +1785,7 @@ pre
 {
    color: #595959;
    margin: 30px 0 0 15px;
-   font-size: 22px;
+   font-size: 20px;
    font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
